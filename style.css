@@ -1,4 +1,29 @@
+#home h2 {
+    color: white;
+    font-size: 75px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
 
-#home {
-    background: url(imagens/slide01.jpg);
+#home p {
+    font-size: 30px;
+    margin-top: 0px;
+    color: white;
+}
+
+a.btn-geral {
+    background: pink;
+    padding: 10px 35px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+a.btn-geral:hover {
+    background: black;
+    color: pink;
 }
