@@ -24,6 +24,11 @@ a.btn-geral {
 }
 
 a.btn-geral:hover {
-    background: black;
-    color: pink;
+    background: rgb(248, 232, 4);
+    color: rgb(48, 18, 218);
+}
+section#home {
+    background: url(slide01.jpg);
+    background-position: center;
+    height: 800px;
 }
